@@ -1,1 +1,0 @@
-<?php require_once("../front-end/index.html")?>
