@@ -13,8 +13,9 @@ rutas.post('/create-checkout-session', async (req, res) => {
           currency: 'usd',
           product_data: {
             name: 'LIBRO DE TERROR',
+
           },
-          unit_amount: 500,
+          unit_amount: 1000,
         },
         quantity: 1,
       },
