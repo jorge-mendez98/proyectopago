@@ -24,12 +24,26 @@
 							<li>
 					
 							</li>
-							
-							<li><a href="#" class="button primary">Pagos</a></li>
+							<form action="/create-checkout-session" method="POST">
+								<button type="submit" id="checkout-button">Comprar</button>
+							</form>
+						
 						</ul>
 					</nav>
 				</header>
+				<script src="https://js.stripe.com/v3/"></script>
 
+<script>
+
+	function pago(event){
+		
+
+// If you disable collecting fields in the Payment Element, you
+// must pass equivalent data when calling `stripe.confirmPayment`.
+
+	}
+
+</script>
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">

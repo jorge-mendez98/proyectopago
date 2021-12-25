@@ -1,5 +1,7 @@
 //variables
 var express = require("express")
+const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+
 var ruta = require("./router/router.js")
 var app = express()
 app.set("port",3000||process.env.PORT)
