@@ -14,7 +14,7 @@ rutas.post('/create-checkout-session', async (req, res) => {
         price_data: {
           currency: 'usd',
           product_data: {
-            name: 'LIBRO DE TERROR',
+            name: 'TAREA ESTADISTICA 1 USAC',
 
           },
           unit_amount: 1000,
